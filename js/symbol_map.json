@@ -14,11 +14,11 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/prash21/FIT3179-W9-HW/main/data/earthquake.csv"
+        "url": "https://raw.githubusercontent.com/prash21/FIT3179-W9-HW/main/data/covidData.csv"
       },
       "encoding": {
-        "longitude": {"field": "longitude", "type": "quantitative"},
-        "latitude": {"field": "latitude", "type": "quantitative"}
+        "longitude": {"field": "Long", "type": "quantitative"},
+        "latitude": {"field": "Lat", "type": "quantitative"}
       },
       "layer": [
         {
@@ -27,17 +27,10 @@
             "tooltip": {"content": "data"}
           },
           "encoding": {
-            "size": {"field": "mag", 
+            "size": {"field": "Total_cases", 
                      "type": "quantitative",
-                     "scale": {
-                          "domain": [5, 8]
-                        }},
-            "color": {"field": "depth", 
-                      "type": "quantitative",
-                      "scale":{
-                          "scheme":"reds"
-                      }          
-            }
+                    },
+            
           }
         }
       ]
