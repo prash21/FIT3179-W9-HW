@@ -17,20 +17,12 @@
         "url": "https://raw.githubusercontent.com/prash21/FIT3179-W9-HW/main/data/covidData.csv"
       },
       "encoding": {
-        "longitude": {"field": "Long", "type": "quantitative"},
-        "latitude": {"field": "Lat", "type": "quantitative"}
-      },
-      "layer": [
-        {
-          "mark": {
-            "type": "circle",
-            "tooltip": {"content": "data"}
-          },
-          "encoding": {
-            "size": {"field": "Total_cases", 
-                     "type": "quantitative",
-                    },
-            
+            "color": {"field": "Total_cases", 
+                      "type": "quantitative",
+                      "scale":{
+                          "scheme":"reds"
+                      }          
+            }
           }
         }
       ]
