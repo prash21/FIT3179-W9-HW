@@ -30,8 +30,8 @@
             "size": {"field": "TotalRecoveredCases", 
                      "type": "quantitative",
                      "scale": {
-                          "domain": [1, 100000]
-            
+                          "domain": [4,8]
+                        }},
             "color": {"field": "TotalDeaths", 
                       "type": "quantitative",
                       "scale":{
