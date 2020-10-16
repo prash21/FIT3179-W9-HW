@@ -27,7 +27,7 @@
             "tooltip": {"content": "data"}
           },
           "encoding": {
-            "size": {"bin:" true, "field": "TotalRecoveredCases", 
+            "size": {"bin": true, "field": "TotalRecoveredCases", 
                      "type": "quantitative",
                      },
             
