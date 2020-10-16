@@ -27,11 +27,7 @@
             "tooltip": {"content": "data"}
           },
           "encoding": {
-            "size": {"field": "TotalRecoveredCases", 
-                     "type": "quantitative",
-                     "scale": {
-                          "domain": [4,8]
-                        }},
+            
             "color": {"field": "TotalDeaths", 
                       "type": "quantitative",
                       "scale":{
