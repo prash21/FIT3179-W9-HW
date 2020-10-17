@@ -1,8 +1,8 @@
 #symbol_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
+	 margin: auto;
+  	 border: 3px solid #73AD21;
+  	 padding: 10px;
+}
 	/*height: 1000px;
 	width: 800px;*/
-}
+
