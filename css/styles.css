@@ -1,10 +1,9 @@
 #symbol_map {
-	 margin: auto;
-  	 border: 3px solid #808080;
-  	 padding: 10px;
-	 width: 50%;
-	 padding: 10px;
-}
+	top:50px;
+	bottom: 100px; 
+	left: 240px;
+  	border: 3px solid #808080;
+
 	/*height: 1000px;
 	width: 800px;*/
-
+}
